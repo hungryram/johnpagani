@@ -2,3 +2,5 @@
 label: IDX Config
 hide_body: true
 fields: []
+pages:
+- data/idx.yaml
