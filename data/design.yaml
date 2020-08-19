@@ -1,8 +1,8 @@
 ---
 logo_and_title:
   logo: "/uploads/wallstlogo1.png"
-  site_title: Ben Bacal Real Estate
-  favicon: "/uploads/benlogo.jpg"
+  site_title: Wallstreet Realty
+  favicon: "/uploads/logo.png"
 home_slideshow:
   slideshow:
   - heading: Wallstreet Realty
@@ -10,19 +10,11 @@ home_slideshow:
     link_text: Find your dream home
     link: "/listings"
     subtitle: Welcome to
-  - heading: Find commercial properties
-    image: "/uploads/kny5aathxiwy8akkx-220.jpg"
-    link_text: ''
-    link: ''
-    subtitle: Modern Development
-  - subtitle: Luxury Estates
-    heading: Find your dream home
-    image: "/uploads/ddtzdbuzsxozt2hgc-160.jpg"
-    link_text: ''
-    link: ''
 banner:
-  image: "/uploads/ywfqktke97unwy7ap-10350wyton100.jpg"
+  image: "/uploads/whiteinterior.jpg"
 footer:
-  footer_logo: "/uploads/revelrealestatelogo-white.png"
-  footer_bio: Setting the standard for luxury real estate in Southern California since
-    2005.
+  footer_logo: "/uploads/wallstlogo1.png"
+  footer_bio: We take pride in providing our clients with exceptional service and
+    competitive rates in a no pressure environment. Our agents are selected for their
+    attentiveness to clients, their knowledge of the communities we service, and their
+    commitment to you – the real estate consumer.
