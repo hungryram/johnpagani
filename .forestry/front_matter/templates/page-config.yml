@@ -83,5 +83,3 @@ fields:
   label: Enable SEO Page Config
   hidden: true
   default: true
-pages:
-- data/page-config.yaml

@@ -318,6 +318,3 @@ fields:
     template: seo
     label: SEO
   label: Search Engine Optimization
-pages:
-- content/listings/10350-wyton-dr.md
-- content/listings/1231-lago-vista-dr.md

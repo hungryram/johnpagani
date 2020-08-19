@@ -170,10 +170,3 @@ fields:
     template: seo
     label: SEO
   label: Search Engine Optimization
-pages:
-- content/team/ben-bacal.md
-- content/team/ben-quibrera.md
-- content/team/david-ferrugio.md
-- content/team/jason-peteler.md
-- content/team/lolita-bagramyan.md
-- content/team/shakara-cannon.md
