@@ -1,13 +1,13 @@
 ---
 logo_and_title:
-  logo: "/uploads/whitelogo.png"
+  logo: "/uploads/wallstlogo1.png"
   site_title: Ben Bacal Real Estate
   favicon: "/uploads/benlogo.jpg"
 home_slideshow:
   slideshow:
-  - heading: Ben Bacal Real Estate
-    image: "/uploads/kitchen.jpg"
-    link_text: View Luxury Properties
+  - heading: Wallstreet Realty
+    image: "/uploads/newluxurykitchen.jpg"
+    link_text: Find your dream home
     link: "/listings"
     subtitle: Welcome to
   - heading: Find commercial properties
