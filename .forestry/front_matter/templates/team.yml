@@ -171,4 +171,5 @@ fields:
     label: SEO
   label: Search Engine Optimization
 pages:
+- content/team/crystal-pagani.md
 - content/team/john-pagani.md
