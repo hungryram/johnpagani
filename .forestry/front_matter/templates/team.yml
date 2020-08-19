@@ -170,3 +170,5 @@ fields:
     template: seo
     label: SEO
   label: Search Engine Optimization
+pages:
+- content/team/john-pagani.md
