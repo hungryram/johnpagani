@@ -1,19 +1,21 @@
 ---
 team:
   subtitle: Meet the Team
-  heading: Best in the Business
+  heading: Here to help you
 agent_bio:
-  photo: "/uploads/ben-bacal-headshot-1-350x350.jpg"
-  heading: THE CALIFORNIA LUXURY MARKET LEADER
-  subtitle: Ben Bacal has been setting the standard for luxury real estate in Southern
-    California
-  link: "/team/ben-bacal"
-  body_text: 'Since 2005, Ben Bacal has been setting the standard for luxury real
-    estate in Southern California. An accomplished top-producing agent with over $2
-    billion in sales, he has orchestrated the purchases of the most iconic residences
-    in the world. Highly sought after for his industry expertise, he’s sold homes
-    to celebrities such as Matt Damon, Ellen DeGeneres, and Madonna, and has also
-    masterminded deals for discerning buyers and sellers who require the utmost discretion. '
+  photo: "/uploads/john15444.jpg"
+  heading: John Pagani
+  subtitle: Wallstreet Realty
+  link: "/about"
+  body_text: Our philosophy is different than that of a franchised real estate company
+    because we realize each property is unique. Buyers and Sellers deserve our undivided
+    attention. Marketing plans should be flexible, commissions negotiable depending
+    upon the transaction, and the customer’s satisfaction should always be the goal.
+    We are dedicated to guiding you through the entire selling or buying process to
+    assure that your expectations are exceeded each and every time you place your
+    trust in Wallstreet Realty. We are using cutting edge technologies and maintaining
+    professional relationships to sell your property in a shorter period of time.
+    Wallstreet Realty is an easily recognized name for buyers and sellers.
   link_text: Read more
 featured_listing:
   subtitle: Exlusive Homes
@@ -21,18 +23,18 @@ featured_listing:
 featured_section:
   link: "/listings"
   first_featured:
-    image: "/uploads/5owgjryv7zsqazyz3-10350wyton020.jpg"
-    heading: Exclusive Homes in
+    image: "/uploads/shutterstock_150649961.jpg"
+    heading: Homes in
     link: "/listings"
-    subtitle: Beverly Hills Los Angeles
+    subtitle: Whittier
   second_featured:
-    image: "/uploads/spatr9mifz9zribbi-10350wyton380.jpg"
-    heading: Sold Properties
-    subtitle: View Our Sold Listings
+    image: "/uploads/shutterstock_644446420.jpg"
+    heading: Featured
+    subtitle: View Our Office Listings
     link: "/status/sold"
-  subtitle: Search by City
-  heading: Exclusive Properties by Cities
-  body: View exceptional luxury listings in Los Angeles. These listings have special
-    qualities that set them apart from most luxury real estate properties. Qualities
-    like unique design, location, view, and the craftmanship of the property.
+  subtitle: Featured Properties
+  heading: Featured Properties by Wallstreet Realty
+  body: View exceptional luxury listings in Southern California. These listings have
+    special qualities that set them apart from most luxury real estate properties.
+    Qualities like unique design, location, view, and the craftmanship of the property.
   link_text: Learn more
