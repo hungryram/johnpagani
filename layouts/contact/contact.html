@@ -1,0 +1,104 @@
+{{ partial "global/head.html" . }}
+{{ $contact := .Site.Data.profile.primary_contact }}
+<section class="hero is-fullheight lax" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/uploads/cvvrmnxshtxzebhus-310.jpg);height:100vh;background-size:cover;background-position:center;" data-lax-bg-pos-y="0 0, vh 200 500">
+{{ partial "global/navbar.html" . }}
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns has-text-centered has-text-white">
+                <div class="column is-half is-offset-one-quarter page-title">
+                    <h1 class="title is-1 has-text-white">Contact the <span>Team</span></h1>
+                    <p>{{ .Site.Data.pageconfig.contact_page.body_text }}</p>
+                </div>
+            </div>
+      </div>
+</section>
+<div class="scroll-down lax" data-lax-preset="fadeOut">
+    <a href="#email">Send an Email</a>
+</div>
+<main>
+    <div class="section" id="email">
+        <div class="container">
+            <div class="columns is-variable is-8">
+                <div class="column is-4">
+                  <div class="contact-box page-title">
+                    <h1 class="title is-3 has-text-white">Our <span>Information</span></h1>
+                    {{ if $contact.mobile_phone }}
+                    <div class="columns mt-2 mb-0">
+                      <div class="column">
+                          <h6 class="title is-6 has-text-white">Cell</h6>
+                      </div>
+                      <div class="column has-text-left">
+                        <a href="tel:{{ $contact.mobile_phone }}">{{ $contact.mobile_phone }}</a>
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if $contact.phone }}
+                    <div class="columns mt-2 mb-0">
+                      <div class="column">
+                          <h6 class="title is-6 has-text-white">Phone</h6>
+                      </div>
+                      <div class="column has-text-left">
+                        <a href="tel:{{ $contact.phone }}">{{ $contact.phone }}</a>
+                      </div>
+                    </div>
+                    {{ end }}
+                    {{ if $contact.email }}
+                    <div class="columns mt-2 mb-0">
+                      <div class="column">
+                          <h6 class="title is-6 has-text-white">Email</h6>
+                      </div>
+                      <div class="column has-text-left">
+                        <a href="mailto:{{ $contact.email }}">{{ $contact.email }}</a>
+                      </div>
+                    </div>
+                    {{ end }}
+                  </div>
+                </div>
+                <div class="column">
+                  <h2 class="title is-3">Send an Email</h2>
+                  <p>We look forward to helping you find your new home</p>
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-page mt-6">
+                        <input name="bot-field" type="hidden"/>
+                        <div class="field is-horizontal">
+                          <div class="field-body">
+                            <div class="field">
+                              <p class="control is-expanded">
+                                <input class="input" type="text" placeholder="First Name" name="first name">
+                              </p>
+                            </div>
+                            <div class="field">
+                              <p class="control">
+                                <input class="input" type="text" placeholder="Last Name" name="last name">
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="field">
+                          <div class="control">
+                            <input class="input" type="text" placeholder="Phone" name="phone">
+                          </div>
+                        </div>
+              
+                        <div class="field">
+                          <div class="control">
+                            <input class="input" type="email" placeholder="Email" name="email address">
+                          </div>
+                        </div>
+                        <div class="field">
+                          <div class="control">
+                            <textarea class="textarea" placeholder="Your Message" name="message"></textarea>
+                          </div>
+                        </div>
+                        <div class="control">
+                          <button class="button">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{{ partial "global/footer.html" . }}

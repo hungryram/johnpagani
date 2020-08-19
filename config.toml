@@ -1,0 +1,30 @@
+baseURL = "https://benbacal.netlify.app/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+summaryLength = 30
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 5
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 4
+[[menu.main]]
+name = "Team"
+url = "/team"
+weight = 3
+[[menu.main]]
+name = "Listings"
+url = "/listings"
+weight = 2
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[taxonomies]
+category = "categories"
+tag = "tags"
+status = "status"
+city = "city"
+zip = "zip"

@@ -1,0 +1,28 @@
+---
+logo_and_title:
+  logo: "/uploads/whitelogo.png"
+  site_title: Ben Bacal Real Estate
+  favicon: "/uploads/benlogo.jpg"
+home_slideshow:
+  slideshow:
+  - heading: Ben Bacal Real Estate
+    image: "/uploads/kitchen.jpg"
+    link_text: View Luxury Properties
+    link: "/listings"
+    subtitle: Welcome to
+  - heading: Find commercial properties
+    image: "/uploads/kny5aathxiwy8akkx-220.jpg"
+    link_text: ''
+    link: ''
+    subtitle: Modern Development
+  - subtitle: Luxury Estates
+    heading: Find your dream home
+    image: "/uploads/ddtzdbuzsxozt2hgc-160.jpg"
+    link_text: ''
+    link: ''
+banner:
+  image: "/uploads/ywfqktke97unwy7ap-10350wyton100.jpg"
+footer:
+  footer_logo: "/uploads/revelrealestatelogo-white.png"
+  footer_bio: Setting the standard for luxury real estate in Southern California since
+    2005.

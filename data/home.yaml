@@ -1,0 +1,38 @@
+---
+team:
+  subtitle: Meet the Team
+  heading: Best in the Business
+agent_bio:
+  photo: "/uploads/ben-bacal-headshot-1-350x350.jpg"
+  heading: THE CALIFORNIA LUXURY MARKET LEADER
+  subtitle: Ben Bacal has been setting the standard for luxury real estate in Southern
+    California
+  link: "/team/ben-bacal"
+  body_text: 'Since 2005, Ben Bacal has been setting the standard for luxury real
+    estate in Southern California. An accomplished top-producing agent with over $2
+    billion in sales, he has orchestrated the purchases of the most iconic residences
+    in the world. Highly sought after for his industry expertise, he’s sold homes
+    to celebrities such as Matt Damon, Ellen DeGeneres, and Madonna, and has also
+    masterminded deals for discerning buyers and sellers who require the utmost discretion. '
+  link_text: Read more
+featured_listing:
+  subtitle: Exlusive Homes
+  heading: Luxury Homes in Los Angeles
+featured_section:
+  link: "/listings"
+  first_featured:
+    image: "/uploads/5owgjryv7zsqazyz3-10350wyton020.jpg"
+    heading: Exclusive Homes in
+    link: "/listings"
+    subtitle: Beverly Hills Los Angeles
+  second_featured:
+    image: "/uploads/spatr9mifz9zribbi-10350wyton380.jpg"
+    heading: Sold Properties
+    subtitle: View Our Sold Listings
+    link: "/status/sold"
+  subtitle: Search by City
+  heading: Exclusive Properties by Cities
+  body: View exceptional luxury listings in Los Angeles. These listings have special
+    qualities that set them apart from most luxury real estate properties. Qualities
+    like unique design, location, view, and the craftmanship of the property.
+  link_text: Learn more
