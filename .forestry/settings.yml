@@ -42,6 +42,9 @@ sections:
 - type: document
   path: data/pageconfig.yaml
   label: Page Config
+- type: document
+  path: data/idx.yaml
+  label: IDX Config
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
