@@ -1,22 +1,16 @@
-{{ partial "global/head.html" . }}
+{{ define "main" }}
 {{ $contact := .Site.Data.profile.primary_contact }}
-<section class="hero is-fullheight lax" style="background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/uploads/cvvrmnxshtxzebhus-310.jpg);height:100vh;background-size:cover;background-position:center;" data-lax-bg-pos-y="0 0, vh 200 500">
-{{ partial "global/navbar.html" . }}
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns has-text-centered has-text-white">
-                <div class="column is-half is-offset-one-quarter page-title">
-                    <h1 class="title is-1 has-text-white">Contact the <span>Team</span></h1>
-                    <p>{{ .Site.Data.pageconfig.contact_page.body_text }}</p>
-                </div>
-            </div>
-      </div>
-</section>
-<div class="scroll-down lax" data-lax-preset="fadeOut">
-    <a href="#email">Send an Email</a>
+<div class="section">
+  <div class="container">
+    <div class="columns has-text-left has-text-black">
+        <div class="column page-title">
+            <h1 class="title is-1 has-text-black">Contact the <span>Team</span></h1>
+            <p>{{ .Site.Data.pageconfig.contact_page.body_text }}</p>
+        </div>
+    </div>
+    <hr>
 </div>
-<main>
+</div>
     <div class="section" id="email">
         <div class="container">
             <div class="columns is-variable is-8">
@@ -99,6 +93,4 @@
             </div>
         </div>
     </div>
-</main>
-
-{{ partial "global/footer.html" . }}
+{{ end }}
