@@ -291,7 +291,6 @@ div a.navbar-item:hover {
 div.bg-overlay {
     background: url("/uploads/.jpg") no-repeat center;
     background-size: cover;
-    padding-top: 50px;
     padding-bottom: 80px;
     /* padding: 10% 0; */
     /* margin-top: -100px; */
@@ -772,4 +771,88 @@ footer.bottom-foot ul li a,
 footer.bottom-foot p,
 footer.bottom-foot a  {
     color: #7a7a7a;
+}
+
+
+
+
+
+
+/* IDX HOME SCROLL */
+
+div#ihf-main-container .thumbnail {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 70px;
+}
+
+img.ihf-slider-img {
+    width: 600px;
+    object-fit: cover;
+}
+
+div.col-xs-12.address.gallery-address{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+}
+
+div#ihf-main-container a {
+    color: #000;
+    font-size: 1rem;
+    text-transform: capitalize;
+
+
+}
+
+div#ihf-main-container a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+div.row.gallery-prop-info {
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+div#ihf-main-container .col-xs-6,
+#ihf-main-container > div > div.row.ihf-vcenter > div > div > div.ihf-slide.cycle-slide.cycle-slide-active > div > div:nth-child(1) > div > div.row.gallery-prop-info > div:nth-child(2) {
+    text-align:center!important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+div#ihf-main-container .pagination>li>a, #ihf-main-container .pagination>li>span {
+    background: transparent;
+}
+
+div#ihf-main-container .glyphicon-chevron-left:before,
+    div#ihf-main-container .glyphicon-chevron-right:before {
+    font-size: 14px;
+}
+
+/* HOME QUICK SEARCH */
+#searchProfile > fieldset > div > div:nth-child(3),
+#searchProfile > fieldset > div > div:nth-child(4),
+#searchProfile > fieldset > div > div:nth-child(5),
+#searchProfile > fieldset > div > div:nth-child(6),
+#searchProfile > fieldset > div > div.col-xs-12.col-sm-1 > label,
+#searchProfile > fieldset > div > div.col-xs-12.col-sm-3 > label {
+    display: none;
+}
+
+div#ihf-main-container .form-control,
+div#ihf-main-container input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0px!important;
+    outline: none;
+}
+
+div#ihf-main-container .btn-primary, .ihf-main-container .btn-primary {
+    background-color: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height:50px;
 }

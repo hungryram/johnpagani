@@ -49,7 +49,7 @@
           {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank">Pinterest</a></li>{{ end }}
           {{ if $footerSocial.youtube }}<li><a href="{{ $footerSocial.youtube }}" target="_blank">Youtube</a></li>{{ end }}
           {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank">Linkedin</a></li>{{ end }}
-          {{ if $footerSocial.zillow }}<li><a href="{{ $footerSocial.zillow }}" target="_blank">Zilloq</a></li>{{ end }}
+          {{ if $footerSocial.zillow }}<li><a href="{{ $footerSocial.zillow }}" target="_blank">Zillow</a></li>{{ end }}
           {{ if $footerSocial.redfin }}<li><a href="{{ $footerSocial.redfin }}" target="_blank">Redfin</a></li>{{ end }}
           {{ if $footerSocial.realtor }}<li><a href="{{ $footerSocial.realtor }}" target="_blank">Realtor</a></li>{{ end }}
           {{ if $footerSocial.reddit }}<li><a href="{{ $footerSocial.reddit }}" target="_blank">Reddit</a></li>{{ end }}
@@ -102,8 +102,12 @@
   </div>
 </div>
 </footer>
+
+{{ if not $.IsHome }}
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+{{ end }}
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
