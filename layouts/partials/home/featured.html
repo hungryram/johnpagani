@@ -4,39 +4,38 @@
 <div class="section" style="padding-top:10%;padding-bottom:10%">
     <div class="container">
         <div class="columns">
-            <div class="column">
+            <div class="column is-6">
                 {{ if $featured.subtitle }}
                     <h5 class="subtitle is-5 is-uppercase">{{ $featured.subtitle }}</h5>
                 {{ end }}
                 {{ if $featured.heading }}
                     <h2 class="title is-2 pt-5">{{ $featured.heading }}</h2>
                 {{ end }}
-                {{ if $featured.body }}
-                <p class="mb-6">{{ $featured.body }}</p>
-                {{ end }}
-                {{ if $featured.link }}
-                <a href="{{ $featured.link }}" class="about-btn has-text-black">{{ $featured.link_text }}</a>
-                {{ end }}
+                <div class="columns is-mobile">
+                    <div class="column">
+                        {{ if $featured.body }}
+                        <p class="mb-6">{{ $featured.body }}</p>
+                        {{ end }}
+                    </div>
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sapiente delectus neque maiores facere tenetur facilis sunt eius! Nihil id in esse veritatis? Porro quas inventore excepturi dicta sapiente odit.</p>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        {{ if $featured.link }}
+                        <a href="{{ $featured.link }}" class="about-btn has-text-black">{{ $featured.link_text }}</a>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
             {{ if $featuredFirst }}
                 <div class="column">
                     <a href="{{ $featuredFirst.link }}" class="featured-container">
                         <div class="bg-image" style="background:url({{ $featuredFirst.image }}) no-repeat center;background-size:cover;height: 500px;">
                             <div class="inner-box">
+                                <h2 class="title is-5 has-text-white">{{ $featuredFirst.subtitle }}</h2>
                                 <h4 class="subtitle is-6">{{ $featuredFirst.heading }}</h4>
-                                <h2 class="title is-5">{{ $featuredFirst.subtitle }}</h2>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            {{ end }}
-            {{ if $featuredSecond }}
-                <div class="column">
-                    <a href="{{ $featuredSecond.link }}" class="featured-container">
-                        <div class="bg-image" style="background:url({{ $featuredSecond.image }}) no-repeat center;background-size:cover;height: 500px">
-                            <div class="inner-box">
-                                <h4 class="subtitle is-6">{{ $featuredSecond.heading }}</h4>
-                                <h2 class="title is-5">{{ $featuredSecond.subtitle }}</h2>
                             </div>
                         </div>
                     </a>

@@ -275,7 +275,7 @@ div a.navbar-item:hover {
         left: 0;
         right: 0;
         top: 0;
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9)),url("https://d3g7t4t7rv9de8.cloudfront.net/Jq9LtJH5MySLRHYv2-1895RisingGlen015.jpg?width=1798");
+        background: black;
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -347,10 +347,23 @@ div.featured-listing {
     transition: all .3s ease;
 }
 
-@media (max-width:768px){
-    div.team-carousel > ul.slick-dots {
-        display: none!important;
-    }
+div.team-carousel > ul.slick-dots {
+    display: none!important;
+}
+
+div.team-border {
+    position: relative;
+}
+
+div.team-border:after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 4px;
+    background: #666666;
+    bottom: 0;
+    left:0;
+    border-radius: 50px;
 }
 
 /* LISTING THUMBNAIL */
@@ -639,7 +652,7 @@ div.bg-image {
 }
 
 div.inner-box {
-    background: white;
+    background: #313131;
     width: 300px;
     position: absolute;
     bottom: 0;
@@ -648,8 +661,8 @@ div.inner-box {
 }
 
 a.featured-container:hover div.inner-box {
+    padding: 50px;
     width: 350px;
-    padding-left: 40px;
     transition: all .3s ease;
 }
 
@@ -758,17 +771,18 @@ form.contact-page textarea.textarea::placeholder {
 /* FOOTER */
 
 footer.footer {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,9)),
-    url("https://d3g7t4t7rv9de8.cloudfront.net/9RAZAjyizZidH4oSH-SMcam5HQ030617R2.jpg?width=1840") no-repeat center 10%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,9)),
+    url("/uploads/splash2.jpg") no-repeat center 10%;
     background-size: cover;
 }
 
-footer.bottom-foot {
-    background:#000;
+
+footer.footer ul li a,
+footer.footer p,
+footer.footer a  {
+    color: #999999;
 }
 
-footer.bottom-foot ul li a,
-footer.bottom-foot p,
-footer.bottom-foot a  {
-    color: #7a7a7a;
+.quicksearch a {
+    color: #C69C6D;
 }
