@@ -1,7 +1,7 @@
 ---
 team:
   subtitle: Let us help you
-  heading: Professional Real Estate Team
+  heading: Our team of professionals
 agent_bio:
   photo: "/uploads/john15444.jpg"
   heading: John Pagani
@@ -21,20 +21,18 @@ featured_listing:
   subtitle: Exlusive Homes
   heading: Luxury Homes in Los Angeles
 featured_section:
-  link: "/listings"
+  link: "http://www.idxhome.com/organizer/login/133408"
   first_featured:
     image: "/uploads/shutterstock_150649961.jpg"
-    heading: Homes in
-    link: "/listings"
-    subtitle: Whittier
+    heading: 
+    link: "http://www.idxhome.com/organizer/login/133408"
+    subtitle: Office Listings
   second_featured:
     image: "/uploads/shutterstock_644446420.jpg"
     heading: Featured
     subtitle: View Our Office Listings
     link: "/status/sold"
-  subtitle: Featured Properties
-  heading: Featured Properties by Wallstreet Realty
-  body: View exceptional luxury listings in Southern California. These listings have
-    special qualities that set them apart from most luxury real estate properties.
-    Qualities like unique design, location, view, and the craftmanship of the property.
+  subtitle: Property organizer
+  heading: Track your favorited homes
+  body: Save properties you're interested in and track new listings that fit your criteria. Using our registration tools, you'll be able to contact any of our ages for information on properties that interests you.
   link_text: Learn more

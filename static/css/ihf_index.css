@@ -84,3 +84,9 @@ div#ihf-main-container .btn-primary:hover, .ihf-main-container .btn-primary:hove
     background: #C69C6D;
     transition: background .3s ease;
 }
+
+@media screen and (max-width:768px){
+    button#ihf-quicksearch-submit3 {
+        margin-top: 20px!important;
+    }
+}

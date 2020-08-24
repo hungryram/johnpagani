@@ -17,31 +17,6 @@
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_accounts }}
 <footer class="footer">
-  <div class="section">
-    <div class="container">
-      <div class="columns is-variable is-8">
-        <div class="column is-6">
-          <h1 class="title is-3 has-text-white">Contact</h1>
-          <div class="columns pt-6 has-text-white">
-            <div class="column pl-3-desktop">
-              <h6 class="title is-4 has-text-white">Email</h6>
-              <p>{{ $footerContact.email }}</p>
-              <div class="pt-6">
-                <h2 class="title is-6 mb-0 has-text-white">{{ $footerContact.license_type }}</h2>
-                <p>{{ $footerContact.license_number }}</p>
-              </div>
-            </div>
-            <div class="column">
-              <h6 class="title is-4 has-text-white">Mobile</h6>
-              <p><a href="tel:{{ $footerContact.mobile_phone }}" class="has-text-white">{{ $footerContact.mobile_phone }}</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-<footer class="bottom-foot footer">
 <div class="section">
   <div class="container">
     <div class="columns">
@@ -49,8 +24,9 @@
         {{ if $footerDesign.footer_logo }}
           <img src="{{ $footerDesign.footer_logo }}" alt="" width="150px" class="mb-5">
         {{ else }}
-          <h4 class="title is-4 has-text-white is-uppercase">{{ .Site.Data.profile.primary_company_name }}</h4>
         {{ end }}
+        <h2 class="title is-6 mb-0 has-text-white"></h2>
+        <p>{{ $footerContact.license_type }} {{ $footerContact.license_number }}</p>
         {{ if $footerDesign.footer_bio }}
           <p class="pb-6">{{ $footerDesign.footer_bio }}</p>
         {{ end }}
@@ -64,7 +40,7 @@
           {{ if $footerSocial.pinterest }}<li><a href="{{ $footerSocial.pinterest }}" target="_blank">Pinterest</a></li>{{ end }}
           {{ if $footerSocial.youtube }}<li><a href="{{ $footerSocial.youtube }}" target="_blank">Youtube</a></li>{{ end }}
           {{ if $footerSocial.linkedin }}<li><a href="{{ $footerSocial.linkedin }}" target="_blank">Linkedin</a></li>{{ end }}
-          {{ if $footerSocial.zillow }}<li><a href="{{ $footerSocial.zillow }}" target="_blank">Zilloq</a></li>{{ end }}
+          {{ if $footerSocial.zillow }}<li><a href="{{ $footerSocial.zillow }}" target="_blank">Zillow</a></li>{{ end }}
           {{ if $footerSocial.redfin }}<li><a href="{{ $footerSocial.redfin }}" target="_blank">Redfin</a></li>{{ end }}
           {{ if $footerSocial.realtor }}<li><a href="{{ $footerSocial.realtor }}" target="_blank">Realtor</a></li>{{ end }}
           {{ if $footerSocial.reddit }}<li><a href="{{ $footerSocial.reddit }}" target="_blank">Reddit</a></li>{{ end }}
@@ -83,23 +59,9 @@
         </ul>
       </div>
       <div class="column">
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input name="bot-field" type="hidden"/>
-          <input name="subject" type="hidden" value="Contact Form"/>
-          <div class="field">
-            <div class="control">
-              <input class="input" type="email" placeholder="Email" name="email address">
-            </div>
-          </div>
-          <div class="field">
-            <div class="control">
-              <textarea class="textarea" placeholder="Your Message" name="message"></textarea>
-            </div>
-          </div>
-          <div class="control">
-            <button class="button">Submit</button>
-          </div>
-        </form>
+        <h4 class="title is-6 has-text-white is-uppercase">Contact</h4>
+            <p><a href="mailto:{{ $footerContact.email }}">{{ $footerContact.email }}</a></p>
+            <p><a href="tel:{{ $footerContact.phone }}" class="has-text-white">{{ $footerContact.phone }}</a></p>
       </div>
     </div>
     <div class="columns">
@@ -117,7 +79,12 @@
   </div>
 </div>
 </footer>
+
+{{ if not $.IsHome }}
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+{{ end }}
+
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
