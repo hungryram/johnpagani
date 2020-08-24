@@ -1,30 +1,70 @@
 baseURL = "https://pagani.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 summaryLength = 30
+title = "My New Hugo Site"
 [[menu.main]]
-name = "Contact"
-url = "/contact"
-weight = 5
-[[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 4
+name = "Email Alerts"
+url = "http://www.idxhome.com/organizer/emailAlerts/133408"
+weight = 6
 [[menu.main]]
 name = "Team"
+parent = "Contact"
 url = "/team"
+weight = 2
+[[menu.main]]
+name = "Contact"
+parent = "Contact"
+url = "/contact"
+weight = 1
+[[menu.main]]
+name = "Contact"
+weight = 5
+[[menu.main]]
+name = "Valuation Request"
+parent = "Buyers & Sellers"
+url = "http://www.idxhome.com/valuation/133408"
+weight = 2
+[[menu.main]]
+name = "Property Organizer"
+parent = "Buyers & Sellers"
+url = " http://www.idxhome.com/organizer/login/133408"
+weight = 1
+[[menu.main]]
+name = "Buyers & Sellers"
+weight = 4
+[[menu.main]]
+name = "Open Homes"
+parent = "Property Search"
+url = " http://www.idxhome.com/openhomes/133408"
 weight = 3
 [[menu.main]]
-name = "Listings"
-url = "/listings"
+name = "Advanced Search"
+parent = "Property Search"
+url = "http://www.idxhome.com/listing/search/advanced/133408/13"
 weight = 2
+[[menu.main]]
+name = "Search"
+parent = "Property Search"
+url = " http://www.idxhome.com/homesearch/133408"
+weight = 1
+[[menu.main]]
+name = "Property Search"
+weight = 3
 [[menu.main]]
 name = "Home"
 url = "/"
 weight = 1
+[[menu.main]]
+name = "Featured Listings"
+url = " http://www.idxhome.com/featured/133408"
+weight = 2
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 7
 [taxonomies]
 category = "categories"
-tag = "tags"
-status = "status"
 city = "city"
+status = "status"
+tag = "tags"
 zip = "zip"
