@@ -2,6 +2,10 @@ baseURL = "https://pagani.netlify.app/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
+name = "Featured Properties"
+url = " https://www.idxhome.com/featured/133408"
+weight = 2
+[[menu.main]]
 name = "Open Homes"
 parent = "Property Search"
 url = " http://www.idxhome.com/openhomes/133408"
@@ -50,10 +54,6 @@ weight = 1
 name = "Blog"
 url = "/blog"
 weight = 7
-[[menu.main]]
-name = "Featured Listings"
-url = " http://www.idxhome.com/featured/133408"
-weight = 2
 [[menu.main]]
 name = "Home"
 url = "/"
