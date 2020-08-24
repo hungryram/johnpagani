@@ -242,6 +242,24 @@ div a.navbar-item:hover {
     transition: color .3s ease;
 }
 
+a.navbar-link:hover {
+    color: #fff;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
+    background: transparent!important;
+}
+
+@media screen and (min-width: 1024px){
+    .navbar-dropdown a.navbar-item {
+        color: black;
+    }
+    div.navbar-dropdown {
+        border-top: 2px solid #b83c30;
+    }
+}
+
+
 /* .navbar-menu {
     animation: navAnimOpen .5s ease-in-out;
 }
@@ -283,6 +301,15 @@ div a.navbar-item:hover {
 
     .navbar-burger {
         z-index: 10;
+    }
+
+    /* MOBILE DROP DOWN */
+    .navbar-dropdown {
+        display: none;
+    }
+
+    .navbar-dropdown.is-active {
+        display: block;
     }
 }
 
@@ -578,6 +605,7 @@ div.bio-content p {
 
 div.agent-title-container {
     background: #232323;
+    padding: 15px;
 }
 
 div.agent-title-container h6.subtitle,

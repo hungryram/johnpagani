@@ -3,8 +3,8 @@
 {{ $agentDetails := .Params.details }}
 <div class="section">
     <div class="container">
-        <div class="columns is-variable is-8">
-            <div class="column is-4">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
                 {{ if $agentDetails.agent_photo }}
                 <img src="{{ $agentDetails.agent_photo }}" alt="">
                 {{ end }}
@@ -67,15 +67,26 @@
                         </div>
                     </div>
                     {{ end }}
+                    {{ if $agentDetails.website }}
+                    <div class="columns is-vcentered mb-0 is-mobile">
+                        <div class="column">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"/>
+                                <circle cx="12" cy="12" r="9" />
+                                <line x1="3.6" y1="9" x2="20.4" y2="9" />
+                                <line x1="3.6" y1="15" x2="20.4" y2="15" />
+                                <path d="M11.5 3a17 17 0 0 0 0 18" />
+                                <path d="M12.5 3a17 17 0 0 1 0 18" />
+                              </svg>
+                        </div>
+                        <div class="column has-text-left">
+                            <a href="{{ $agentDetails.website }}" target="_blank">{{ $agentDetails.website }}</a>
+                        </div>
+                    </div>
+                    {{ end }}
                 </div>
             </div>
-            <div class="column bio-content">
-                <h3 class="subtitle is-6 is-uppercase">About</h3>
-                <h1 class="title is-1">{{ .Title }}</h1>
-                <div class="content">
-                    {{ .Content }}
-                </div>
-            </div>
+
         </div>
     </div>
 </div>
