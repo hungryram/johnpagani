@@ -8,7 +8,7 @@ home_slideshow:
   - heading: Wallstreet Realty
     image: "/uploads/splash4.jpg"
     link_text: Find your dream home
-    link: "/listings"
+    link: "http://www.idxhome.com/homesearch/133408"
     subtitle: Welcome to
 banner:
   image: "/uploads/whiteinterior.jpg"

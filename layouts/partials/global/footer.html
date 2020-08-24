@@ -7,7 +7,7 @@
     <div class="columns">
       <div class="column is-4">
         {{ if $footerDesign.footer_logo }}
-          <img src="{{ $footerDesign.footer_logo }}" alt="" width="150px" class="mb-5">
+          <img src="{{ $footerDesign.footer_logo | absURL }}" alt="{{ .Site.Data.profile.primary_company_name }}" width="150px" class="mb-5">
         {{ else }}
         {{ end }}
         <h2 class="title is-6 mb-0 has-text-white"></h2>

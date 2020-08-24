@@ -12,6 +12,16 @@ parent = "Contact"
 url = "/team"
 weight = 2
 [[menu.main]]
+name = "Join Our Team"
+parent = "Contact"
+url = "https://joinwallstrealty.com/"
+weight = 3
+[[menu.main]]
+name = "Contact Us"
+parent = "Contact"
+url = "/contact"
+weight = 1
+[[menu.main]]
 name = "Contact"
 parent = "Contact"
 url = "/contact"
