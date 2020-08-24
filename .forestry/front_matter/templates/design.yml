@@ -39,6 +39,15 @@ fields:
       config:
         required: false
       label: Heading
+    - name: hero_body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Hero Body
     - name: image
       type: file
       config:
