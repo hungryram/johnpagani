@@ -2,15 +2,6 @@ baseURL = "https://pagani.netlify.app/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
-name = "Featured Properties"
-url = " https://www.idxhome.com/featured/133408"
-weight = 2
-[[menu.main]]
-name = "Open Homes"
-parent = "Property Search"
-url = " http://www.idxhome.com/openhomes/133408"
-weight = 3
-[[menu.main]]
 name = "Join Our Team"
 parent = "Contact"
 url = "https://joinwallstrealty.com/"
@@ -20,6 +11,15 @@ name = "Team"
 parent = "Contact"
 url = "https://wallstrealty.com/team"
 weight = 1
+[[menu.main]]
+name = "Featured Properties"
+url = "https://www.idxhome.com/featured/133408"
+weight = 2
+[[menu.main]]
+name = "Open Homes"
+parent = "Property Search"
+url = "http://www.idxhome.com/openhomes/133408"
+weight = 3
 [[menu.main]]
 name = "Valuation Request"
 parent = "Buyers & Sellers"
@@ -33,22 +33,17 @@ weight = 2
 [[menu.main]]
 name = "Search"
 parent = "Property Search"
-url = " http://www.idxhome.com/homesearch/133408"
-weight = 1
-[[menu.main]]
-name = "Contact"
-parent = "Contact"
-url = "https://wallstrealty.com/contact"
+url = "http://www.idxhome.com/homesearch/133408"
 weight = 1
 [[menu.main]]
 name = "Contact Us"
 parent = "Contact"
 url = "/contact"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "Property Organizer"
 parent = "Buyers & Sellers"
-url = " http://www.idxhome.com/organizer/login/133408"
+url = "http://www.idxhome.com/organizer/login/133408"
 weight = 1
 [[menu.main]]
 name = "Blog"
