@@ -1,7 +1,6 @@
 baseURL = "https://pagani.netlify.app/"
 languageCode = "en-us"
 summaryLength = 30
-title = "My New Hugo Site"
 [[menu.main]]
 name = "Email Alerts"
 url = "http://www.idxhome.com/organizer/emailAlerts/133408"
@@ -9,7 +8,7 @@ weight = 6
 [[menu.main]]
 name = "Team"
 parent = "Contact"
-url = "/team"
+url = "https://wallstrealty.com/team"
 weight = 2
 [[menu.main]]
 name = "Join Our Team"
@@ -24,7 +23,7 @@ weight = 1
 [[menu.main]]
 name = "Contact"
 parent = "Contact"
-url = "/contact"
+url = "https://wallstrealty.com/contact"
 weight = 1
 [[menu.main]]
 name = "Contact"
