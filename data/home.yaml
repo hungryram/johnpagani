@@ -19,14 +19,14 @@ agent_bio:
   link_text: Read more
 featured_listing:
   subtitle: Exlusive Homes
-  heading: Luxury Homes in Los Angeles
+  heading: Homes in Los Angeles
 featured_section:
-  link: "http://www.idxhome.com/organizer/login/133408"
+  link: https://wallstrealty.idxhome.com/organizer/login/73231
   first_featured:
     image: "/uploads/shutterstock_150649961.jpg"
-    heading: 
-    link: "http://www.idxhome.com/organizer/login/133408"
-    subtitle: Office Listings
+    heading: Homes in LA
+    link: https://wallstrealty.idxhome.com/report/listing-report/LA/73231/964711
+    subtitle: ''
   second_featured:
     image: "/uploads/shutterstock_644446420.jpg"
     heading: Featured
@@ -34,5 +34,7 @@ featured_section:
     link: "/status/sold"
   subtitle: Property organizer
   heading: Track your favorited homes
-  body: Save properties you're interested in and track new listings that fit your criteria. Using our registration tools, you'll be able to contact any of our ages for information on properties that interests you.
-  link_text: Learn more
+  body: Save properties you're interested in and track new listings that fit your
+    criteria. Using our registration tools, you'll be able to contact any of our ages
+    for information on properties that interests you.
+  link_text: Get Started
