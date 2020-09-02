@@ -2,19 +2,24 @@ baseURL = "https://www.wallstrealty.com/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
+name = "Top Searches"
+parent = "Property Search"
+url = "https://wallstrealty.idxhome.com/toppicks/73231"
+weight = 4
+[[menu.main]]
 name = "Join Our Team"
 parent = "Contact"
 url = "https://joinwallstrealty.com/"
 weight = 4
 [[menu.main]]
-name = "Team"
-parent = "Contact"
-url = "https://wallstrealty.com/team"
-weight = 3
-[[menu.main]]
 name = "Open Homes"
 parent = "Property Search"
 url = "https://wallstrealty.idxhome.com/openhomes/73231"
+weight = 3
+[[menu.main]]
+name = "Team"
+parent = "Contact"
+url = "https://wallstrealty.com/team"
 weight = 3
 [[menu.main]]
 name = "Valuation Request"
@@ -27,6 +32,11 @@ parent = "Property Search"
 url = "https://wallstrealty.idxhome.com/listing/search/advanced/73231/13"
 weight = 2
 [[menu.main]]
+name = "Contact Us"
+parent = "Contact"
+url = "https://wallstrealty.idxhome.com/contact/73231"
+weight = 1
+[[menu.main]]
 name = "Search"
 parent = "Property Search"
 url = "https://wallstrealty.idxhome.com/homesearch/73231"
@@ -35,11 +45,6 @@ weight = 1
 name = "Property Organizer"
 parent = "Buyers & Sellers"
 url = "https://wallstrealty.idxhome.com/organizer/login/73231"
-weight = 1
-[[menu.main]]
-name = "Contact Us"
-parent = "Contact"
-url = "https://wallstrealty.idxhome.com/contact/73231"
 weight = 1
 [[menu.main]]
 name = "Email Alerts"
