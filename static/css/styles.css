@@ -482,7 +482,6 @@ div.inner-box {
 
 a.featured-container:hover div.inner-box {
     padding: 50px;
-    width: 350px;
     transition: all .3s ease;
 }
 
