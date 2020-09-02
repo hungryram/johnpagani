@@ -6,7 +6,7 @@ cell = "323-440-6229"
 email = "marleny0328@gmail.com"
 phone = ""
 [details]
-agent_photo = "/uploads/marielena-re-1.jpg"
+agent_photo = "/uploads/marieopt.jpg"
 languages = []
 license_number = "1996865"
 license_type = "License Number"
