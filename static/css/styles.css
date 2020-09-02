@@ -438,7 +438,7 @@ a.about-btn {
 .featured-team-content a {
     color: #C69C6D;
     transition: all .3s ease;
-    font-style: italic;
+    font-size: 13px;
 }
 
 .featured-team-content a:hover {
