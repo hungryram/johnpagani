@@ -6,7 +6,7 @@
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://pagani.netlify.app/*"
+  from = "https://pagani.netlify.app/"
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
