@@ -9,7 +9,7 @@ weight = 4
 [[menu.main]]
 name = "Team"
 parent = "Contact"
-url = "/team"
+url = "https://wallstrealty.com/team"
 weight = 3
 [[menu.main]]
 name = "Open Homes"
