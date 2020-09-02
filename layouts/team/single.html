@@ -6,7 +6,7 @@
         <div class="columns">
             <div class="column is-half is-offset-one-quarter">
                 {{ if $agentDetails.agent_photo }}
-                <img src="{{ $agentDetails.agent_photo }}" alt="">
+                <img src="{{ $agentDetails.agent_photo }}" alt="{{ .Title }}">
                 {{ end }}
                 <div class="agent-title-container mt-5">
                     {{ if $agentDetails.title }}
