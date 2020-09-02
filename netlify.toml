@@ -5,25 +5,25 @@
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-  [[redirects]]
+[[redirects]]
   from = "https://wallstrealty.com/*"
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-    [[redirects]]
+[[redirects]]
   from = "https://wallstrealty.com/"
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-    [[redirects]]
+[[redirects]]
   from = "https://wallstrealty.com"
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-    [[redirects]]
+[[redirects]]
   from = "/our-team"
   to = "/team"
   status = 301
