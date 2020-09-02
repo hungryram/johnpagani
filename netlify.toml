@@ -28,3 +28,9 @@
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/property-organizer-login/"
+  to = "https://wallstrealty.idxhome.com/organizer/login/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
