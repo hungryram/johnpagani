@@ -76,3 +76,45 @@
   to = "https://www.wallstrealty.com"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/homes-for-sale-featured/"
+  to = "https://wallstrealty.idxhome.com/featured/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/layouts/scs/"
+  to = "https://www.wallstrealty.com"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/listing-report/LA/964711/"
+  to = "https://wallstrealty.idxhome.com/toppicks/73231/964711"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/homes-for-sale-map-search/"
+  to = "https://wallstrealty.idxhome.com/listing/search/advanced/73231/13"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/homes-for-sale-search-advanced/"
+  to = "https://wallstrealty.idxhome.com/listing/search/advanced/73231/13"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/listing-report/Downey-600K-800K/202636/"
+  to = "https://wallstrealty.idxhome.com/toppicks/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/listing-report/Whittier-Under-400K/218744/"
+  to = "https://wallstrealty.idxhome.com/toppicks/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
