@@ -1,10 +1,10 @@
-baseURL = "https://pagani.netlify.app/"
+baseURL = "https://wallstrealty.com/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
 name = "Open Homes"
 parent = "Property Search"
-url = "http://www.idxhome.com/openhomes/133408"
+url = "https://wallstrealty.idxhome.com/openhomes/73231"
 weight = 3
 [[menu.main]]
 name = "Contact Us"
@@ -14,12 +14,12 @@ weight = 1
 [[menu.main]]
 name = "Valuation Request"
 parent = "Buyers & Sellers"
-url = "http://www.idxhome.com/valuation/133408"
+url = "https://wallstrealty.idxhome.com/valuation/73231"
 weight = 2
 [[menu.main]]
 name = "Advanced Search"
 parent = "Property Search"
-url = "http://www.idxhome.com/listing/search/advanced/133408/13"
+url = "https://wallstrealty.idxhome.com/listing/search/advanced/73231/13"
 weight = 2
 [[menu.main]]
 name = "Join Our Team"
@@ -34,16 +34,16 @@ weight = 3
 [[menu.main]]
 name = "Property Organizer"
 parent = "Buyers & Sellers"
-url = "http://www.idxhome.com/organizer/login/133408"
+url = "https://wallstrealty.idxhome.com/organizer/login/73231"
 weight = 1
 [[menu.main]]
 name = "Search"
 parent = "Property Search"
-url = "http://www.idxhome.com/homesearch/133408"
+url = "https://wallstrealty.idxhome.com/homesearch/73231"
 weight = 1
 [[menu.main]]
 name = "Featured Properties"
-url = "https://www.idxhome.com/featured/133408"
+url = "https://wallstrealty.idxhome.com/featured/73231"
 weight = 2
 [[menu.main]]
 name = "Blog"
@@ -64,7 +64,7 @@ name = "Contact"
 weight = 5
 [[menu.main]]
 name = "Email Alerts"
-url = "http://www.idxhome.com/organizer/emailAlerts/133408"
+url = "https://wallstrealty.idxhome.com/organizer/emailAlerts/73231"
 weight = 6
 [taxonomies]
 category = "categories"
