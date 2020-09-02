@@ -1,4 +1,5 @@
 {{ $footerContact := .Site.Data.profile.primary_contact }}
+{{ $footerLocation := .Site.Data.profile.location_information }}
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_accounts }}
 <footer class="footer">
@@ -7,13 +8,13 @@
     <div class="columns">
       <div class="column is-4">
         {{ if $footerDesign.footer_logo }}
-          <img src="{{ $footerDesign.footer_logo | absURL }}" alt="{{ .Site.Data.profile.primary_company_name }}" width="150px" class="mb-5">
+          <img src="{{ $footerDesign.footer_logo | absURL }}" alt="{{ .Site.Data.profile.primary_company_name }}" width="200px" class="mb-5">
         {{ else }}
         {{ end }}
         <h2 class="title is-6 mb-0 has-text-white"></h2>
         <p>{{ $footerContact.license_type }} {{ $footerContact.license_number }}</p>
         {{ if $footerDesign.footer_bio }}
-          <p class="pb-6">{{ $footerDesign.footer_bio }}</p>
+          <p class="pb-6 is-size-6">{{ $footerDesign.footer_bio }}</p>
         {{ end }}
       </div>
       <div class="column">
@@ -37,27 +38,27 @@
         <h4 class="title is-6 has-text-white is-uppercase">Links</h4>
         <ul>
           <li><a href="{{ .Site.BaseURL }}">Home</a></li>
-          <li><a href="/listings">Listings</a></li>
-          <li><a href="/team">Team</a></li>
-          <li><a href="/status/sold">Sold</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="https://wallstrealty.idxhome.com/featured/73231">Listings</a></li>
+          <li><a href="https://wallstrealty.com/team">Team</a></li>
+          <li><a href="https://wallstrealty.idxhome.com/organizer/login/73231">My Account</a></li>
+          <li><a href="https://wallstrealty.idxhome.com/contact/73231">Contact</a></li>
         </ul>
       </div>
       <div class="column">
         <h4 class="title is-6 has-text-white is-uppercase">Contact</h4>
             <p><a href="mailto:{{ $footerContact.email }}">{{ $footerContact.email }}</a></p>
-            <p><a href="tel:{{ $footerContact.phone }}" class="has-text-white">{{ $footerContact.phone }}</a></p>
+            <p><a href="tel:{{ $footerContact.phone }}">{{ $footerContact.phone }}</a></p>
+            <p><a href="https://www.google.com/maps?q=7007+Washington+Blvd+Suite+211,Whittier,CA+90602" target="_blank">{{ $footerLocation.address }} {{ $footerLocation.city }} {{ $footerLocation.state }}, {{ $footerLocation.zip_code }}</a></p>
       </div>
     </div>
     <div class="columns">
       <div class="column has-text-centered-mobile">
-        <small>&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }}</small> &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a>
+        <small class="is-size-7">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.primary_company_name }} &middot; <a href="https://hungryram.com" target="_blank">Website Developed by Hungry Ram</a></small>
       </div>
-      <div class="column has-text-centered-mobile">
+      <div class="column has-text-centered-mobile has-text-right-desktop">
         <ul>
-          <li class="is-inline-block mr-4"><a href="">Privacy Policy</a></li>
-          <li class="is-inline-block mr-4"><a href="">Accessibility</a></li>
-          <li class="is-inline-block mr-4"><a href="">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4 is-size-7"><a href="">Privacy Policy</a></li>
+          <li class="is-inline-block mr-4 is-size-7"><a href="">Accessibility</a></li>
         </ul>
       </div>
     </div>

@@ -813,6 +813,7 @@ footer.footer ul li a,
 footer.footer p,
 footer.footer a  {
     color: #999999;
+    font-family: "Raleway", sans-serif;
 }
 
 .quicksearch a {
