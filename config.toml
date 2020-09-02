@@ -1,4 +1,4 @@
-baseURL = "https://wallstrealty.com/"
+baseURL = "https://www.wallstrealty.com/"
 languageCode = "en-us"
 summaryLength = 30
 [[menu.main]]
