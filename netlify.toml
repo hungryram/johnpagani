@@ -34,3 +34,45 @@
   to = "https://wallstrealty.idxhome.com/organizer/login/73231"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/email-alerts/"
+  to = "https://wallstrealty.idxhome.com/organizer/emailAlerts/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/valuation-form/"
+  to = "https://wallstrealty.idxhome.com/valuation/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/our-team/"
+  to = "/team"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/contact-form/"
+  to = "https://wallstrealty.idxhome.com/contact/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/open-home-search/"
+  to = "https://wallstrealty.idxhome.com/openhomes/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/homes-for-sale-search/"
+  to = "https://wallstrealty.idxhome.com/openhomes/73231"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/author/johnpagani/"
+  to = "https://www.wallstrealty.com"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
