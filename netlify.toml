@@ -10,3 +10,21 @@
   to = "https://www.wallstrealty.com/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+    [[redirects]]
+  from = "https://wallstrealty.com/"
+  to = "https://www.wallstrealty.com/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+    [[redirects]]
+  from = "https://wallstrealty.com"
+  to = "https://www.wallstrealty.com/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+    [[redirects]]
+  from = "/our-team"
+  to = "/team"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
