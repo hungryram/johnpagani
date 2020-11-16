@@ -5,42 +5,36 @@ title = "Accessibility"
 title_tag = ""
 
 +++
-We are committed to providing an accessible website. If you have difficulty accessing content, or having difficulty navigating throughout our website, please contact us immediately.
+# Accessibility
 
-We welcome all suggestions and comments about improving efforts to make sure the website is more accessible on this website.
+# wallstreetrealty.com Accessibility Statement
 
-##### Web Accessibility Help
+Updated: December 2019.
 
-There are actions you can take to adjust your web browser to make your web experience more accessible.
+## General
 
-##### I AM BLIND OR CAN'T SEE VERY WELL
+wallstreetrealty.com strives to ensure that its services are accessible to people with disabilities. wallstreetrealty.com has invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that every person has the right to live with dignity, equality, comfort and independence.
 
-If you have trouble seeing web pages, the [**US SOCIAL SECURITY ADMINISTRATION OFFERS THESE TIPS**](https://www.ssa.gov/accessibility/) for optimizing your computer and browser to improve your online experience.
+## Accessibility on wallstreetrealty.com
 
-* [**USE YOUR COMPUTER TO READ WEB PAGES OUT LOUD**](https://www.ssa.gov/accessibility/)
-* [**USE THE KEYBOARD TO NAVIGATE SCREENS**](https://www.ssa.gov/accessibility/keyboard_nav.html)
-* [**INCREASE TEXT SIZE**](https://www.ssa.gov/accessibility/textsize.html)
-* [**MAGNIFY YOUR SCREEN**](https://www.ssa.gov/accessibility/magnifyscreen.html)
-* [**CHANGE BACKGROUND AND TEXT COLORS**](https://www.ssa.gov/accessibility/changecolors.html)
-* [**MAKE YOUR MOUSE POINTER MORE VISIBLE**](https://www.ssa.gov/accessibility/mousepointer.html) (Windows only)
+wallstreetrealty.com makes available the [UserWay Website Accessibility Widget](https://userway.org/ "Free Website Accessibility Widget") that is powered by a dedicated accessibility server. The software allows wallstreetrealty.com to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).
 
-##### If you are deaf or hard of hearing, there are several accessibility features available to you.
+## Enabling the Accessibility Menu
 
-Accessibility features
+The wallstreetrealty.com accessibility menu can be enabled by clicking the accessibility menu icon that appears on the corner of the page. After triggering the accessibility menu, please wait a moment for the accessibility menu to load in its entirety.
 
-* volume control
-* transcripts
-* captioning
-* all information and alerts conveyed via audio are also conveyed visually
+## Disclaimer
 
-Volume control
+wallstreetrealty.com continues its efforts to constantly improve the accessibility of its site and services in the belief that it is our collective moral obligation to allow seamless, accessible and unhindered use also for those of us with disabilities.
 
-* click the Start button
-* click "Control Panel"
-* click "Hardware and Sound"
-* click "Adjust System Volume"
-* use the volume control to increase or decrease sound to the desired level
+Despite our efforts to make all pages and content on wallstreetrealty.com fully accessible, some content may not have yet been fully adapted to the strictest accessibility standards. This may be a result of not having found or identified the most appropriate technological solution.
 
-Transcripts
+## Here For You
 
-A text transcript is a text equivalent of audio information that includes spoken words and non-spoken sounds such as sound effects.
+If you are experiencing difficulty with any content on wallstreetrealty.com or require assistance with any part of our site, please contact us during normal business hours as detailed below and we will be happy to assist.
+
+## Contact Us
+
+If you wish to report an accessibility issue, have any questions or need assistance, please contact wallstreetrealty.com Customer Support as follows:
+
+Email: john@wallstrealty.com
