@@ -52,23 +52,61 @@ div#ihf-main-container .glyphicon-chevron-left:before,
 }
 
 /* HOME QUICK SEARCH */
-#searchProfile > fieldset > div > div:nth-child(3),
+/* #searchProfile > fieldset > div > div:nth-child(3),
 #searchProfile > fieldset > div > div:nth-child(4),
 #searchProfile > fieldset > div > div:nth-child(5),
 #searchProfile > fieldset > div > div:nth-child(6),
 #searchProfile > fieldset > div > div.col-xs-12.col-sm-1 > label,
 #searchProfile > fieldset > div > div.col-xs-12.col-sm-3 > label {
     display: none;
-}
+} */
 
 div#ihf-main-container .form-control,
-div#ihf-main-container input[type=text] {
-    background: transparent;
+div#ihf-main-container input[type=text],
+#ihf-main-container .chosen-container-single a.chosen-single
+ {
+    background: transparent!important;
     border: none;
     border-bottom: 2px solid #fff;
     border-radius: 0px!important;
     outline: none;
     box-shadow: none;
+}
+
+div.hero-foot .container {
+    background: rgb(2 1 2 / 66%);
+    padding: 20px;
+}
+
+div.mobile-qs .container {
+    background: rgb(2 1 2 / 66%);
+    padding: 20px;
+}
+
+.mobile-qs .ihf-container label, .ihf-widget-label {
+    color: #fff;
+}
+
+.mobile-qs #ihf-main-container .form-control::placeholder,
+.mobile-qs #ihf-search-form-input::placeholder,
+.mobile-qs #ihf-search-form-input:focus,
+.mobile-qs #ihf-main-container .form-control,
+.mobile-qs #ihf-main-container .chosen-container-single .chosen-single,
+div.hero-foot #ihf-main-container .form-control {
+    color: #fff!important;
+}
+
+
+@media screen and (max-width:768px){
+    div.hero-foot .container {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+    div.mobile-qs {
+        display: none;
+    }
 }
 
 div#ihf-main-container .btn-primary, .ihf-main-container .btn-primary {
